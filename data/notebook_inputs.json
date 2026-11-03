@@ -1,0 +1,163 @@
+{
+  "notebook": "notebooks/sf_income_and_arrival_analysis.ipynb",
+  "builder": "data_cleaning/build_dataset.py",
+  "builder_sha256": "66f9eb7210518292811199132d0ec03e1e0d68a7c1a4326568cc43c74522d71c",
+  "text_line_endings": "LF for CSV and JSON",
+  "files": [
+    {
+      "path": "data/cleaned/notebook/analysis_metadata.json",
+      "bytes": 514,
+      "sha256": "2cc975ad1197cb5b86693526b317a238e9d6469e2f6a0ac3d760d28cd20f89aa"
+    },
+    {
+      "path": "data/cleaned/notebook/arrival_plot_summary.csv",
+      "bytes": 6607,
+      "sha256": "e20c624861a943d710b625291386ced6f9f3c24e415c161a738c7587b6094c26",
+      "rows": 27
+    },
+    {
+      "path": "data/cleaned/notebook/arrival_share_gaps.csv",
+      "bytes": 6607,
+      "sha256": "a445f70f7cc9f1ca26fed60ddbf4dbd068261e1a2299ad8c8f0660fff0fc6eac",
+      "rows": 27
+    },
+    {
+      "path": "data/cleaned/notebook/income_availability.csv",
+      "bytes": 141,
+      "sha256": "021eb6c73a4c7260670f658ab7b355155848ff880101321a16effc2932359fdb",
+      "rows": 5
+    },
+    {
+      "path": "data/cleaned/notebook/income_box_shares.csv",
+      "bytes": 5890,
+      "sha256": "e6cf1a24fa5f00c731c45134a1761f846b92dd4bbafa843776b735fd18c90dcd",
+      "rows": 27
+    },
+    {
+      "path": "data/cleaned/notebook/income_bracket_outliers.csv",
+      "bytes": 953,
+      "sha256": "9185cc69f2deed6f318c1e76cea363dd8cec4d3a58d37d182acff67368b8c1a7",
+      "rows": 23
+    },
+    {
+      "path": "data/cleaned/notebook/income_map_bounds.csv",
+      "bytes": 93,
+      "sha256": "5d306bac4039e486d180532853fa79e78ab450ed81020cf84898238b4e6fb7a7",
+      "rows": 1
+    },
+    {
+      "path": "data/cleaned/notebook/income_map_legend.csv",
+      "bytes": 206,
+      "sha256": "483bf2a24f748623e80bd7b58b0a64fe584e06ae70ba8f1bd83824c170e3f112",
+      "rows": 3
+    },
+    {
+      "path": "data/cleaned/notebook/income_service_charts.csv",
+      "bytes": 5767,
+      "sha256": "273b62f957802e7ef3c9f372432fefa34ace47523640770282be7f19956c037a",
+      "rows": 26
+    },
+    {
+      "path": "data/cleaned/notebook/income_zip_map.parquet",
+      "bytes": 274536,
+      "sha256": "8eccef508b610301a239181ac27c9180d6c4a29a6c382782025b73df79da4d7d",
+      "rows": 27
+    },
+    {
+      "path": "data/cleaned/notebook/monthly_service_summary.csv",
+      "bytes": 3796,
+      "sha256": "8ceade94ed540f25fe662505b6d5a16875d3172b53b5bb2957a37e62b1368aec",
+      "rows": 50
+    },
+    {
+      "path": "data/cleaned/notebook/monthly_share_cdfs.csv",
+      "bytes": 228881,
+      "sha256": "d85b58ac6d3a0e8a6bed82dcbcb60b59b02686ef95aea9e1f964d14f312f2de6",
+      "rows": 2943
+    },
+    {
+      "path": "data/cleaned/notebook/per_zip_kl_ks_results.csv",
+      "bytes": 4854,
+      "sha256": "83985a5cec1c6001668d6ecdb338000f4f8af0cebf711ac4c7c38b61217296f6",
+      "rows": 27
+    },
+    {
+      "path": "data/cleaned/notebook/per_zip_monthly_shares.csv",
+      "bytes": 133122,
+      "sha256": "b3b50b1bbc1f5eee0dfa53ee92569acbba2a2fe00e8228a69b35848fb1cb90d5",
+      "rows": 1485
+    },
+    {
+      "path": "data/cleaned/notebook/service_chart_labels.csv",
+      "bytes": 1813,
+      "sha256": "afcf358eac69610a9b059405f338f965733042d605d2f691c79d4f82b7adc899",
+      "rows": 6
+    },
+    {
+      "path": "data/cleaned/notebook/service_correlations.csv",
+      "bytes": 719,
+      "sha256": "62156525a8922f636276fdfd793ac04045371034fd4c8ca9cae54f81ecfa3484",
+      "rows": 7
+    },
+    {
+      "path": "data/cleaned/notebook/service_model_coefficients.csv",
+      "bytes": 3071,
+      "sha256": "f635e7f64208d0a088c9a11eb177a1e16b7d8f2badb480cd269208819e93d2e6",
+      "rows": 16
+    },
+    {
+      "path": "data/cleaned/notebook/service_summary_statistics.csv",
+      "bytes": 1265,
+      "sha256": "3cf44662abc5f8b2053c725a7df34fc788ad8dc33bba746209e9717f8d04e832",
+      "rows": 8
+    },
+    {
+      "path": "data/cleaned/notebook/service_zip_map.parquet",
+      "bytes": 291581,
+      "sha256": "6c3bbd6d27be04c05b614820df2c7bc7f9f4759c18792b1dc33619e30be0f521",
+      "rows": 27
+    },
+    {
+      "path": "data/cleaned/notebook/sf_acs_income_brackets_by_zip_year.csv",
+      "bytes": 59158,
+      "sha256": "1a44847109ac8b3f64a1412e036c02840734bdb45ced117deedf3aeb15473874",
+      "rows": 303
+    },
+    {
+      "path": "data/cleaned/notebook/sf_irs_zip_income_2020_2022.csv",
+      "bytes": 7085,
+      "sha256": "38a421b852d296a5fb74e0e7e48e8d02496c7ca4a179a3e21348b9b87ce5da67",
+      "rows": 81
+    },
+    {
+      "path": "data/cleaned/notebook/sf_street_edges.parquet",
+      "bytes": 6751165,
+      "sha256": "3c5af278eabb7fdf0ce2fc8e8442013de82ec24aab3f656187b5f950ef248075",
+      "rows": 166688
+    },
+    {
+      "path": "data/cleaned/notebook/sf_transit_stops.parquet",
+      "bytes": 90082,
+      "sha256": "d042d45a4d2175267bd89a8d2dcde17e5096b16e6a044191969312e7b716ad15",
+      "rows": 3221
+    },
+    {
+      "path": "data/cleaned/notebook/sf_zip_socioeconomic_table.csv",
+      "bytes": 6449,
+      "sha256": "aab7be4f524401e36d5cebb0adea58383b709edead728159e9954dd918e684d7",
+      "rows": 27
+    },
+    {
+      "path": "data/cleaned/notebook/sf_zip_year_socioeconomic_table.csv",
+      "bytes": 33312,
+      "sha256": "18628e4c584510d429fb6c2aa2ad73a1db4723cdb079a1d6e2fb8e1218b03f21",
+      "rows": 303
+    },
+    {
+      "path": "data/cleaned/notebook/zip_service_summary.csv",
+      "bytes": 5617,
+      "sha256": "2fe4de3c669d43b939f852172020f371ed6b4194276afb2ec04618b51c5c1673",
+      "rows": 27
+    }
+  ]
+}

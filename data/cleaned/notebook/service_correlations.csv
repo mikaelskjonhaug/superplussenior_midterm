@@ -1,0 +1,8 @@
+first_variable,second_variable,correlation,p_value,zip_count
+median_household_income,observed_arrivals_per_stop_per_day,-0.11321124488205422,0.5818727883325178,26
+median_household_income,on_time_pct,-0.05985440122689924,0.7714726780469968,26
+poverty_rate,observed_arrivals_per_stop_per_day,0.08593943583016664,0.6699518481637868,27
+poverty_rate,on_time_pct,0.33136647118869916,0.09132664403651931,27
+mean_stops_per_sqmi,observed_arrivals_per_stop_per_day,0.37004506672444637,0.05744674597385148,27
+mean_stops_per_1000_residents,observed_arrivals_per_stop_per_day,0.17348699475379173,0.38682028726141454,27
+quarter_mile_stop_coverage_pct_2026,observed_arrivals_per_stop_per_day,0.25472125019360536,0.1997671622273763,27

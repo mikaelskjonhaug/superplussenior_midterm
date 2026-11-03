@@ -1,0 +1,29 @@
+{
+  "month_count": 55,
+  "zip_count": 27,
+  "quality_flagged_months": [
+    "2023-02",
+    "2024-11",
+    "2024-12",
+    "2025-01",
+    "2025-02"
+  ],
+  "most_significant_zip": "94158",
+  "tied_lowest_p_value_zips": [
+    "94158",
+    "94134"
+  ],
+  "flagged_zip_codes": [
+    "94105",
+    "94158",
+    "94134",
+    "94122",
+    "94132",
+    "94102",
+    "94118",
+    "94104"
+  ],
+  "stops_frequency_spearman": -0.682051282051282,
+  "income_ontime_spearman": 0.06871794871794872,
+  "income_service_zip_count": 26
+}

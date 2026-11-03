@@ -1,0 +1,4 @@
+status,color,label
+Low,darkorange,Low: score 0.02-0.33; median income 60k-153k
+Medium,goldenrod,Medium: score 0.37-0.61; median income 120k-183k
+High,seagreen,High: score 0.69-0.98; median income 164k-225k
